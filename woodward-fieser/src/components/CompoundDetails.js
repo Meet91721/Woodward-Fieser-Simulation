@@ -13,7 +13,7 @@ function CompoundDetails({lmax}) {
       alert('correct values entered');
     }
     else{
-      alert('Incorrect l max found');
+      alert('Incorrect λ-max found');
     }
   }
   return (
@@ -42,7 +42,7 @@ function CompoundDetails({lmax}) {
           </Row><br />
           
         <Row>
-            <Col>lmax :</Col>
+            <Col>λmax :</Col>
             <Col><input value={val} onChange={(e) => setVal(e.target.value)}  type='text' name='practicalId'></input></Col>
           </Row><br />
         </Container>
